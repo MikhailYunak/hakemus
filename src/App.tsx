@@ -1,11 +1,10 @@
 import { STATUS_LABELS, STATUSES } from '@/features/board/types';
 
-// Стартова оболонка. Дошку, reducer, провайдер і хуки пишеш сам — див. README, тиждень 1.
 export function App() {
   return (
     <main className="app">
       <header className="app-header">
-        <h1>Hakemus Lite</h1>
+        <h1 className="text-page-title">Hakemus Lite</h1>
       </header>
 
       <section className="board">

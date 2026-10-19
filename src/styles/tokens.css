@@ -1,0 +1,181 @@
+:root,
+[data-theme="light"] {
+  --bg: #f2f4f5;
+  --surface: #ffffff;
+  --surface-sunken: #e8ecee;
+  --surface-muted: #eef1f3;
+  --surface-raised: #f6f8f9;
+  --nav: #0f1c24;
+  --nav-ink: #e7edf0;
+  --nav-muted: #b9c6ce;
+  --ink: #14212b;
+  --ink-muted: #55636e;
+  --ink-subtle: #3d4a54;
+  --border: #dce2e6;
+  --border-strong: #c9d2d8;
+  --accent: #0b6e6a;
+  --accent-ink: #ffffff;
+  --accent-soft: #e1eceb;
+  --accent-soft-ink: #0b4f4c;
+  --link: #0b6e6a;
+  --status-wishlist: #6b7a86;
+  --status-wishlist-bg: #eef1f3;
+  --status-wishlist-ink: #3d4a54;
+  --status-applied: #2f6fdb;
+  --status-applied-bg: #e6eefb;
+  --status-applied-ink: #1f4e9e;
+  --status-screening: #7a5ae0;
+  --status-screening-bg: #efeafc;
+  --status-screening-ink: #4a3596;
+  --status-interview: #b86e00;
+  --status-interview-bg: #fff2dc;
+  --status-interview-ink: #7a4700;
+  --status-offer: #2e8b57;
+  --status-offer-bg: #e4f3ea;
+  --status-offer-ink: #1e6440;
+  --status-closed: #b4232c;
+  --status-closed-bg: #fbe7e8;
+  --status-closed-ink: #8e1b22;
+  --scrim: rgba(9, 16, 21, 0.55);
+  --shadow-popover: 0 12px 28px rgba(9, 16, 21, 0.14);
+  --shadow-dialog: 0 24px 64px rgba(9, 16, 21, 0.28);
+}
+
+[data-theme="dark"] {
+  --bg: #0b1217;
+  --surface: #16212a;
+  --surface-sunken: #111a21;
+  --surface-muted: #1e2b35;
+  --surface-raised: #1a262f;
+  --nav: #070c10;
+  --nav-ink: #e6ecef;
+  --nav-muted: #a9b8c1;
+  --ink: #e6ecef;
+  --ink-muted: #9aabb5;
+  --ink-subtle: #c2cfd6;
+  --border: #26333d;
+  --border-strong: #2e3d48;
+  --accent: #3bb3a8;
+  --accent-ink: #04201d;
+  --accent-soft: #12302e;
+  --accent-soft-ink: #7fd6cc;
+  --link: #5fd0c4;
+  --status-wishlist: #8a99a4;
+  --status-wishlist-bg: #1e2b35;
+  --status-wishlist-ink: #c2cfd6;
+  --status-applied: #6e9bff;
+  --status-applied-bg: #16263f;
+  --status-applied-ink: #9bbdf5;
+  --status-screening: #a694ff;
+  --status-screening-bg: #2a2247;
+  --status-screening-ink: #cdbeff;
+  --status-interview: #e3a13a;
+  --status-interview-bg: #3a2a0e;
+  --status-interview-ink: #f6c987;
+  --status-offer: #4cc38a;
+  --status-offer-bg: #12301f;
+  --status-offer-ink: #93ddb2;
+  --status-closed: #f07178;
+  --status-closed-bg: #3a1518;
+  --status-closed-ink: #f5a3a8;
+  --scrim: rgba(0, 0, 0, 0.6);
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 999px;
+  --control-md: 44px;
+  --control-sm: 36px;
+  --sidebar: 220px;
+  --column-min: 264px;
+  --font-sans: "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+}
+
+.text-kpi {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.text-page-title {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.text-dialog-title {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.text-section-title {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.text-card-title {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.text-body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.text-body-strong {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.text-small {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.text-caption {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.text-overline {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.text-mono-data {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.text-mono-small {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
